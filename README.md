@@ -30,15 +30,18 @@ add_branch(‘jayanagar’, [“3 sedan for Rs.11 per hour”, “3 bikes for Rs
 add_branch(‘malleshwaram’, [“1 suv for Rs.11 per hour”, “10 bikes for Rs.3 per hour” , “3 sedan for Rs.10 per hour”]);
 
 add_vehicle(‘koramangala’,  “1 sedan”);
-
- //add 1 sedan to koramangala
+//add 1 sedan to koramangala
+ 
 book_vehicle(‘suv’, 20th Feb 10:00 AM, 20th Feb 12:00 PM); 
+
 // should book from malleshwaram.
 
 rent_vehicle(‘suv’, 20th Feb 10:00 AM, 20th Feb 12:00 PM);
+
  // should book from koramangala.
 
 rent_vehicle(‘suv’, 20th Feb 10:00 AM, 20th Feb 12:00 PM); 
+
 //Should fail saying no vehicle.
 
 print_system_view_for_time_slot(20th Feb 11:00 PM, 20th Feb 12:00 PM):
