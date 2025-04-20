@@ -1,5 +1,4 @@
 # FlipKar
-# FlipKar
 Description:
 
 Flipkart is starting a new vehicle rental service called FlipKar. In this service, we will rent different kinds of vehicles such as cars and bikes.
@@ -69,5 +68,5 @@ Slot , slotStatus
 
 
 UML Diagram 
+<img width="1083" alt="Pasted Graphic 1" src="https://github.com/user-attachments/assets/2f39bedf-ed25-4caf-a80b-74eedb84050f" />
 
-![alt text](<Pasted Graphic 1.png>)
